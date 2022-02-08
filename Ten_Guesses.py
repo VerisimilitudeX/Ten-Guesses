@@ -1,7 +1,3 @@
-"""
-LESSON: 2.4 - While Loops
-EXERCISE: Ten Guesses
-"""
 #### ---- SET UP ---- ####
 
 # Have Player 1 enter an object in lower-case letters.
@@ -9,7 +5,6 @@ EXERCISE: Ten Guesses
 answer = input("Player 1: Enter an object in lower-case letters. ")
 
 # BONUS: Do you remember what this line of code does?
-# ---> TEST AFTER THIS LINE <--- #
 print("\n" * 100)
 
 # Assign the value 10 to the variable num_guess
@@ -61,7 +56,6 @@ while num_guess > 0:
             print("You have " + str(num_guess) + " guesses remaining. ")
 
             # Print a blank line for spacing
-            # ---> TEST AFTER THIS LINE <--- #
             print()
 
             # Get input using the prompt "Player 2, ask
@@ -70,7 +64,6 @@ while num_guess > 0:
             guess = input("Player 2, ask Player 1 a yes-or-no question about their object. (Hit enter once they've answered.)")
 
         # Print a blank line for spacing
-        # ---> TEST AFTER THIS LINE <--- #
         print()
 
 
@@ -84,9 +77,4 @@ if num_guess == 0:
     print("Start another game to play again!")
 
     # Print what the correct answer was
-    # ---> TEST AFTER THIS LINE <--- #
     print("The correct answer was " + str(answer) + " !")
-
-
-# Turn in your Coding Exercise.
-
